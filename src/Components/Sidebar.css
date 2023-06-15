@@ -1,0 +1,18 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+li:hover{
+    color: black;
+}
+
+li:active{
+    background-color: #3cf;
+    color: black;
+}
+
+.icon:hover{
+    color: black;
+}
