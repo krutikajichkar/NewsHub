@@ -2,17 +2,38 @@
     position: fixed;
     top: 0;
     bottom: 0;
+    
 }
 
-li:hover{
+.sidebarlist li:hover{
     color: black;
 }
 
-li:active{
+.sidebarlist li:active{
     background-color: #3cf;
     color: black;
 }
 
 .icon:hover{
     color: black;
+}
+
+.sidebarMobile{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+@media(max-width:950px){
+    .sidebarMobile{
+        display: block;
+        width: 13%;
+    }
+    .sidebar{
+        display: none;
+    }
+    .headlinebar{
+        display: none;
+    }
 }

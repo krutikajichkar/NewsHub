@@ -1,0 +1,1 @@
+export const unavailable = 'https://eagle-sensors.com/wp-content/uploads/unavailable-image.jpg'; 
